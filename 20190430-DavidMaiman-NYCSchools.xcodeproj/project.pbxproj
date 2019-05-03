@@ -15,6 +15,8 @@
 		63DCA1F422792DB200C70D4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DCA1F222792DB200C70D4E /* LaunchScreen.storyboard */; };
 		63DCA1FF22792DB200C70D4E /* _0190430_DavidMaiman_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DCA1FE22792DB200C70D4E /* _0190430_DavidMaiman_NYCSchoolsTests.swift */; };
 		63DCA20A22792DB200C70D4E /* _0190430_DavidMaiman_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DCA20922792DB200C70D4E /* _0190430_DavidMaiman_NYCSchoolsUITests.swift */; };
+		63F1550F227CC298004D2AA1 /* SchoolDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1550E227CC298004D2AA1 /* SchoolDetail.swift */; };
+		63F15511227CD007004D2AA1 /* SATData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F15510227CD007004D2AA1 /* SATData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		63DCA20522792DB200C70D4E /* 20190430-DavidMaiman-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20190430-DavidMaiman-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DCA20922792DB200C70D4E /* _0190430_DavidMaiman_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0190430_DavidMaiman_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		63DCA20B22792DB200C70D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F1550E227CC298004D2AA1 /* SchoolDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetail.swift; sourceTree = "<group>"; };
+		63F15510227CD007004D2AA1 /* SATData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +103,11 @@
 		63DCA1E522792DB000C70D4E /* 20190430-DavidMaiman-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				63F1550D227C9BBB004D2AA1 /* Controller */,
+				63F1550C227C9BB3004D2AA1 /* View */,
+				63F1550B227C9B9F004D2AA1 /* Model */,
 				63DCA1E622792DB000C70D4E /* AppDelegate.swift */,
-				63DCA1E822792DB000C70D4E /* ViewController.swift */,
-				63DCA1EA22792DB000C70D4E /* Main.storyboard */,
 				63DCA1F022792DB200C70D4E /* Assets.xcassets */,
-				63DCA1F222792DB200C70D4E /* LaunchScreen.storyboard */,
 				63DCA1F522792DB200C70D4E /* Info.plist */,
 				63DCA1ED22792DB000C70D4E /* _0190430_DavidMaiman_NYCSchools.xcdatamodeld */,
 			);
@@ -126,6 +130,32 @@
 				63DCA20B22792DB200C70D4E /* Info.plist */,
 			);
 			path = "20190430-DavidMaiman-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		63F1550B227C9B9F004D2AA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63F1550E227CC298004D2AA1 /* SchoolDetail.swift */,
+				63F15510227CD007004D2AA1 /* SATData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63F1550C227C9BB3004D2AA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63DCA1E822792DB000C70D4E /* ViewController.swift */,
+				63DCA1EA22792DB000C70D4E /* Main.storyboard */,
+				63DCA1F222792DB200C70D4E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63F1550D227C9BBB004D2AA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F1550F227CC298004D2AA1 /* SchoolDetail.swift in Sources */,
 				63DCA1E922792DB000C70D4E /* ViewController.swift in Sources */,
 				63DCA1EF22792DB000C70D4E /* _0190430_DavidMaiman_NYCSchools.xcdatamodeld in Sources */,
 				63DCA1E722792DB000C70D4E /* AppDelegate.swift in Sources */,
+				63F15511227CD007004D2AA1 /* SATData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

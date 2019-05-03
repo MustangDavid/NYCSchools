@@ -34,7 +34,7 @@ class ViewController: UIViewController {
             do {
                 // 3
                 //Decode data
-                let JSONData = try JSONDecoder().decode([JSONSchoolDirectory].self, from: data)
+                let JSONData = try JSONDecoder().decode([SchoolDetail].self, from: data)
                 
                 // 4
                 //Get back to the main queue
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
                     //self.dateLabel.text = JSONData.date
                     //self.timeLabel.text = JSONData.time
                     for d in JSONData{
-                        print(d.dbn)
+                        print(d.dbn! + " " + d.school_name! + " " )
                     }
                 }
                 
@@ -63,7 +63,7 @@ class ViewController: UIViewController {
             do {
                 // 3
                 //Decode data
-                let JSONData = try JSONDecoder().decode([JSONSAT].self, from: data)
+                let JSONData = try JSONDecoder().decode([SATData].self, from: data)
                 
                 // 4
                 //Get back to the main queue
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
                     //self.dateLabel.text = JSONData.date
                     //self.timeLabel.text = JSONData.time
                     for d in JSONData{
-                        print(d.school_name)
+                        print(d.school_name! + " SAT TAKERS: " +  d.num_of_sat_test_takers!)
                     }
                 }
                 
