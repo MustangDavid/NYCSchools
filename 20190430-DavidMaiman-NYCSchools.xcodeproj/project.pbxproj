@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6324828F227F71BE0026B3BF /* SchoolDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6324828E227F71BE0026B3BF /* SchoolDataController.swift */; };
 		63DCA1E722792DB000C70D4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DCA1E622792DB000C70D4E /* AppDelegate.swift */; };
 		63DCA1E922792DB000C70D4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DCA1E822792DB000C70D4E /* ViewController.swift */; };
 		63DCA1EC22792DB000C70D4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DCA1EA22792DB000C70D4E /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 		63DCA20A22792DB200C70D4E /* _0190430_DavidMaiman_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DCA20922792DB200C70D4E /* _0190430_DavidMaiman_NYCSchoolsUITests.swift */; };
 		63F1550F227CC298004D2AA1 /* SchoolDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1550E227CC298004D2AA1 /* SchoolDetail.swift */; };
 		63F15511227CD007004D2AA1 /* SATData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F15510227CD007004D2AA1 /* SATData.swift */; };
+		63F15513227CDD71004D2AA1 /* SATController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F15512227CDD71004D2AA1 /* SATController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6324828E227F71BE0026B3BF /* SchoolDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDataController.swift; sourceTree = "<group>"; };
 		63DCA1E322792DB000C70D4E /* 20190430-DavidMaiman-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20190430-DavidMaiman-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DCA1E622792DB000C70D4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63DCA1E822792DB000C70D4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		63DCA20B22792DB200C70D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63F1550E227CC298004D2AA1 /* SchoolDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetail.swift; sourceTree = "<group>"; };
 		63F15510227CD007004D2AA1 /* SATData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATData.swift; sourceTree = "<group>"; };
+		63F15512227CDD71004D2AA1 /* SATController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,9 @@
 		63DCA1E522792DB000C70D4E /* 20190430-DavidMaiman-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				63F1550B227C9B9F004D2AA1 /* Model */,
 				63F1550D227C9BBB004D2AA1 /* Controller */,
 				63F1550C227C9BB3004D2AA1 /* View */,
-				63F1550B227C9B9F004D2AA1 /* Model */,
 				63DCA1E622792DB000C70D4E /* AppDelegate.swift */,
 				63DCA1F022792DB200C70D4E /* Assets.xcassets */,
 				63DCA1F522792DB200C70D4E /* Info.plist */,
@@ -154,6 +158,8 @@
 		63F1550D227C9BBB004D2AA1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				63F15512227CDD71004D2AA1 /* SATController.swift */,
+				6324828E227F71BE0026B3BF /* SchoolDataController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -292,7 +298,9 @@
 				63F1550F227CC298004D2AA1 /* SchoolDetail.swift in Sources */,
 				63DCA1E922792DB000C70D4E /* ViewController.swift in Sources */,
 				63DCA1EF22792DB000C70D4E /* _0190430_DavidMaiman_NYCSchools.xcdatamodeld in Sources */,
+				6324828F227F71BE0026B3BF /* SchoolDataController.swift in Sources */,
 				63DCA1E722792DB000C70D4E /* AppDelegate.swift in Sources */,
+				63F15513227CDD71004D2AA1 /* SATController.swift in Sources */,
 				63F15511227CD007004D2AA1 /* SATData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
